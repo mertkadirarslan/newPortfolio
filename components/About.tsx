@@ -9,32 +9,15 @@ export const About = () => {
         <section className="flex flex-col mb-12">
             <Heading>About 💭</Heading>
             <Text style={{marginBottom: `${TEXT_MARGIN_BOTTOM}rem`}}>
-                I&apos;m a {new Date().getFullYear() - 2003} year old software engineer
-                based in the TR, I specialize in web development.
+                I&apos;m  {new Date().getFullYear() - 2004} year old. software lover living in TC,
+                I am an expert in mobile application development.
             </Text>
             <Text style={{marginBottom: `${TEXT_MARGIN_BOTTOM}rem`}}>
-                I use a variety of technologies to ease my development process, when
-                working on the client I use{" "}
-                <LinkTag href="https://reactjs.org/" target="_blank">
-                    ReactJS
-                </LinkTag>{" "}
-                &#38;{" "}
-                <LinkTag href="https://nextjs.org/" target="_blank">
-                    NextJS
-                </LinkTag>{" "}
-                and for the serverside I use{" "}
-                <LinkTag href="https://nodejs.org/en/" target="_blank">
-                    Node
-                </LinkTag>{" "}
-                &#38;{" "}
-                <LinkTag href="https://php.net/" target="_blank">
-                    PHP
-                </LinkTag>{" "}
-                .
+            Hey, Welcome to Mert's Digital Environment. 
+          A place to share what I've learned and what I've done.{" "}
+                
             </Text>
-            <Text style={{marginBottom: `${TEXT_MARGIN_BOTTOM}rem`}}>
-                Besides programming, I like to listen to music, travel in my spare time and go out with my friends.
-            </Text>
+           
         </section>
     );
 };
