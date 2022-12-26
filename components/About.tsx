@@ -9,7 +9,7 @@ export const About = () => {
         <section className="flex flex-col mb-12">
             <Heading>About 💭</Heading>
             <Text style={{marginBottom: `${TEXT_MARGIN_BOTTOM}rem`}}>
-                I&apos;m  {new Date().getFullYear() - 2004} year old. software lover living in TC,
+                I&apos;m  {new Date().getFullYear() - 2004} year old. software lover living in Turkey,
                 I am an expert in mobile application development.
             </Text>
             <Text style={{marginBottom: `${TEXT_MARGIN_BOTTOM}rem`}}>

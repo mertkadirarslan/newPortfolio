@@ -23,12 +23,14 @@ export const Main = () => {
                         </a>
                     </Link>
                     <Heading style={{marginBottom: "0.5rem"}}>
-                        Uygar Uğurlu <span className="wave">👋</span>
+                        Mert Kadir <span className="wave">👋</span>
                     </Heading>
                     <div className="text-gray-700 flex font-semibold dark:text-gray-100 mb-4">
-                        {new Date().getFullYear() - 2003} y/o &mdash;&nbsp;
+                        {new Date().getFullYear() - 2004} y/o &mdash;&nbsp;
                         <TypeAnimation
                             sequence={[
+                                "shooter😉",
+                                2000,
                                 "software engineer",
                                 2000,
                                 "animal lover",

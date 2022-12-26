@@ -28,7 +28,7 @@ const getAssetUrl = (appId: string, asset: string) =>
 
 function Listening() {
 
-    const presence = useLanyardWS('936597404055142470');
+    const presence = useLanyardWS('440239378158059532');
 
     const user = useMemo(() => {
         return presence?.discord_user;
@@ -98,7 +98,7 @@ function Listening() {
                                                 className="w-6 h-6 border-2 rounded-full bg-black border-black absolute bottom-[-8px] right-[-8px]"/>
                                         </div>
                                         <div className="space-y-px">
-                                            <a href={`open.spotify.com/track/${presence.spotify!.track_id}`}
+                                            <a href={`https://open.spotify.com/track/${presence.spotify!.track_id}`}
                                                target="_blank"
                                                rel="noreferrer"
                                                title="Open on Spotify"

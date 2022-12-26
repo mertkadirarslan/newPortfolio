@@ -6,13 +6,13 @@ import Link from "next/link";
 export const Links = () => {
   return (
     <div className="flex">
-      <LinkWrapper href="https://github.com/uyg4rugurlu">
+      <LinkWrapper href="https://github.com/itsmertkadir">
         <FiGithub />
       </LinkWrapper>
-      <LinkWrapper href="https://twitter.com/uuygarugurlu">
+      <LinkWrapper href="https://twitter.com/itsmertkadir">
         <FiTwitter />
       </LinkWrapper>
-        <LinkWrapper href="https://instagram.com/uuygarugurlu">
+        <LinkWrapper href="https://instagram.com/itsmertdev">
             <FiInstagram />
         </LinkWrapper>
     </div>
