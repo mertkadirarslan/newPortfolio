@@ -8,6 +8,6 @@ export const technologies = [
     {id: 7, text: "Git", link: "https://git-scm.com/", desc: "A free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency"},
     {id: 8, text: "Mac Mini", link: "https://apple.com/", desc: "M1 16 GB RAM"},
     {id: 9, text: "Visual Studio Code", link: "https://code.visualstudio.com/", desc: "A code editor "},
-    {id: 10, text: "Android Studio", link: "https://www.jetbrains.com/webstorm/", desc: "A smart IDE for Android, Java, and Kotlin"},
-    {id: 11, text: "XCode", link: "https://www.jetbrains.com/webstorm/", desc: "A smart IDE for Ios, Swift, and Swift/UI"},
+    {id: 10, text: "Android Studio", link: "https://developer.android.com/studio", desc: "A smart IDE for Android, Java, and Kotlin"},
+    {id: 11, text: "XCode", link: "https://developer.apple.com/xcode/", desc: "A smart IDE for Ios, Swift, and Swift/UI"},
 ];
